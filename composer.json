@@ -1,0 +1,52 @@
+{
+  "name": "magdicom/laravel-test-initial",
+  "description": "Initial Test!",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Mohamed Abdelmohsen",
+      "email": "m@momagdi.com"
+    }
+  ],
+  "require": {
+    "php": "^8.1",
+    "illuminate/contracts": "^9.0"
+  },
+  "require-dev": {
+    "laravel/pint": "^1.0",
+    "nunomaduro/collision": "^6.0",
+    "orchestra/testbench": "^7.0",
+    "pestphp/pest": "^1.21",
+    "pestphp/pest-plugin-laravel": "^1.1",
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Magdicom\\TestInitial\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Magdicom\\TestInitial\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/pest",
+    "test-coverage": "vendor/bin/pest --coverage",
+    "format": "vendor/bin/pint"
+  },
+  "config": {
+    "sort-packages": true,
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Magdicom\\TestInitial\\TestInitialServiceProvider"
+      ]
+    }
+  }
+}
