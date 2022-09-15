@@ -27,11 +27,10 @@ http://localhost/api/products?price_from=150000&price_to=250000
 ```
 
 ## Live Test
-```
-https://test-initial.momagdi.com/api/products
-https://test-initial.momagdi.com/api/products?category=insurance
-https://test-initial.momagdi.com/api/products?price_from=200000
-https://test-initial.momagdi.com/api/products?price_to=90000
-https://test-initial.momagdi.com/api/products?category=insurance&price_from=50000
-https://test-initial.momagdi.com/api/products?price_from=150000&price_to=250000
-```
+
+[https://test-initial.momagdi.com/api/products](https://test-initial.momagdi.com/api/products)
+[https://test-initial.momagdi.com/api/products?category=insurance](https://test-initial.momagdi.com/api/products?category=insurance)
+[https://test-initial.momagdi.com/api/products?price_from=200000](https://test-initial.momagdi.com/api/products?price_from=200000)
+[https://test-initial.momagdi.com/api/products?price_to=90000](https://test-initial.momagdi.com/api/products?price_to=90000)
+[https://test-initial.momagdi.com/api/products?category=insurance&price_from=50000](https://test-initial.momagdi.com/api/products?category=insurance&price_from=50000)
+[https://test-initial.momagdi.com/api/products?price_from=150000&price_to=250000](https://test-initial.momagdi.com/api/products?price_from=150000&price_to=250000){:target="_blank"}
